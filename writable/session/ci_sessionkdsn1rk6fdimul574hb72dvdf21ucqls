@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1713020556;_ci_previous_url|s:41:"http://localhost:8080/index.php/mahasiswa";username|s:5:"admin";nama|s:5:"admin";level|s:1:"1";pesan|s:287:"<div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <h5><i class="icon fas fa-check"></i>Sukses
+                Simpan Data Mahasiswa.</h5>
+                </div>";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

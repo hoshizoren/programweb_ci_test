@@ -1,0 +1,4 @@
+__ci_last_regenerate|i:1712117263;_ci_previous_url|s:32:"http://localhost:8080/index.php/";username|s:5:"admin";nama|s:5:"admin";level|s:1:"1";pesan|s:264:"<div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <h5><i class="icon fas fa-check"></i>Oppss Username atau Password salah.</h5>
+            </div>";__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

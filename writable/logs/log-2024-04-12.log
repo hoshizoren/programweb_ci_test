@@ -1,0 +1,839 @@
+INFO - 2024-04-12 07:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:07:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:07:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:08:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:08:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:08:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:08:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:11:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:11:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:13:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:13:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:21:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:21:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:24:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:24:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:24:31 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:24:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:29:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:29:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:31:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:31:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:35:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:35:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:35:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:35:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:36:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:36:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:43:39 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:43:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:46:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:46:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:46:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:46:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:46:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:47:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:47:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-12 07:51:07 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#4 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#9 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' in /home/renhoshizora/Project/ProgramWeb/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/renhoshizora/Project/ProgramWeb/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+#3 /home/renhoshizora/Project/ProgramWeb/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/renhoshizora/Project/ProgramWeb/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /home/renhoshizora/Project/ProgramWeb/app/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+#6 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+#7 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /home/renhoshizora/Project/ProgramWeb/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/renhoshizora/Project/ProgramWeb/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /home/renhoshizora/Project/ProgramWeb/system/Commands/Server/rewrite.php(47): require_once('...')
+#11 {main}
+CRITICAL - 2024-04-12 07:51:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost'
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/Home.php(42): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\Home->ceklogin()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-04-12 07:51:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH/Controllers/Mahasiswa.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/home/renhoshizora/Project/ProgramWeb/public/index.php')
+INFO - 2024-04-12 07:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 08:48:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 08:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 08:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:11:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 15:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

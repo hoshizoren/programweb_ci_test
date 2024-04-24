@@ -1,0 +1,244 @@
+WARNING - 2024-03-26 15:43:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:44:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:48:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:48:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:49:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:52:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-26 15:52:59 --> Invalid file: "mahasiswa/view-mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/view-mahasiswa.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('mahasiswa/view-mahasiswa', null, true)
+ 3 APPPATH\Views\layouts\master\mahasiswa\view-mahasiswa.php(100): CodeIgniter\View\View->include('mahasiswa/view-mahasiswa')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\mahasiswa\\view-mahasiswa.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/mahasiswa/view-mahasiswa', [], true)
+ 7 APPPATH\Controllers\Mahasiswa.php(26): view('layouts/master/mahasiswa/view-mahasiswa', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:53:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-26 15:53:12 --> Invalid file: "mahasiswa/add-mahasiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/add-mahasiswa.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('mahasiswa/add-mahasiswa', null, true)
+ 3 APPPATH\Views\layouts\master\mahasiswa\view-mahasiswa.php(100): CodeIgniter\View\View->include('mahasiswa/add-mahasiswa')
+ 4 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\mahasiswa\\view-mahasiswa.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/mahasiswa/view-mahasiswa', [], true)
+ 7 APPPATH\Controllers\Mahasiswa.php(26): view('layouts/master/mahasiswa/view-mahasiswa', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:53:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:56:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 15:57:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 16:00:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-26 16:10:19 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Mahasiswa.php on line 68.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ProgramWeb\\app\\Controllers\\Mahasiswa.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Mahasiswa')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Mahasiswa')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Mahasiswa', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-26 16:11:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:16:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:17:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:17:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:19:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:19:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:19:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:20:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:20:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:22:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:23:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:23:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:23:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:23:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:25:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:26:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:26:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:26:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-03-26 16:26:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+INFO - 2024-03-26 16:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

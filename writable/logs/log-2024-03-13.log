@@ -1,0 +1,231 @@
+CRITICAL - 2024-03-13 02:53:21 --> Cannot declare class App\Models\ModelMahasiswa, because the name is already in use
+in APPPATH\Models\ModelProdi.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-03-13 03:20:41 --> mysqli_sql_exception: Column 'id_jurusan' in order clause is ambiguous in C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProgramWeb\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProgramWeb\app\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProgramWeb\app\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+#6 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProgramWeb\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ProgramWeb\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-13 03:20:41 --> Column 'id_jurusan' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbprodi`
+JOIN `tbjurusan` ON `tbjurusan`.`id_jurusan`=`tbprodi`.`id_jurusan`
+ORDER BY `id_jurusan`', [], false)
+ 2 APPPATH\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+ERROR - 2024-03-13 03:26:50 --> mysqli_sql_exception: Column 'id_jurusan' in order clause is ambiguous in C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProgramWeb\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProgramWeb\app\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProgramWeb\app\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+#6 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProgramWeb\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ProgramWeb\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-13 03:26:50 --> Column 'id_jurusan' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbprodi`
+JOIN `tbjurusan` ON `tbjurusan`.`id_jurusan`=`tbprodi`.`id_jurusan`
+ORDER BY `id_jurusan`', [], false)
+ 2 APPPATH\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+ERROR - 2024-03-13 03:26:55 --> mysqli_sql_exception: Column 'id_jurusan' in order clause is ambiguous in C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProgramWeb\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProgramWeb\app\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProgramWeb\app\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+#6 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProgramWeb\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ProgramWeb\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-13 03:26:55 --> Column 'id_jurusan' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbprodi`
+JOIN `tbjurusan` ON `tbjurusan`.`id_jurusan`=`tbprodi`.`id_jurusan`
+ORDER BY `id_jurusan`', [], false)
+ 2 APPPATH\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+ERROR - 2024-03-13 03:29:46 --> mysqli_sql_exception: Column 'id_jurusan' in order clause is ambiguous in C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProgramWeb\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ProgramWeb\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ProgramWeb\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ProgramWeb\app\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ProgramWeb\app\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+#6 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+#7 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 C:\xampp\htdocs\ProgramWeb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ProgramWeb\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ProgramWeb\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-03-13 03:29:46 --> Column 'id_jurusan' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbprodi`
+JOIN `tbjurusan` ON `tbjurusan`.`id_jurusan`=`tbprodi`.`id_jurusan`
+ORDER BY `id_jurusan`', [], false)
+ 2 APPPATH\Models\ModelProdi.php(30): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Mahasiswa.php(23): App\Models\ModelProdi->getJurusanProdi()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-13 03:42:43 --> Undefined variable $jurusan
+in APPPATH\Views\layouts\master\v_mahasiswa.php on line 129.
+ 1 APPPATH\Views\layouts\master\v_mahasiswa.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jurusan', 'C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php', 129)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(32): view('layouts/master/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 03:45:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 03:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-13 03:58:04 --> Undefined array key "id_prodi"
+in APPPATH\Views\layouts\master\v_mahasiswa.php on line 78.
+ 1 APPPATH\Views\layouts\master\v_mahasiswa.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_prodi"', 'C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php', 78)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(31): view('layouts/master/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 03:58:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 03:59:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:01:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-13 04:01:04 --> Undefined array key "nama_jurusan"
+in APPPATH\Views\layouts\master\v_mahasiswa.php on line 69.
+ 1 APPPATH\Views\layouts\master\v_mahasiswa.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(31): view('layouts/master/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:01:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-13 04:01:30 --> Undefined array key "nama_jurusan"
+in APPPATH\Views\layouts\master\v_mahasiswa.php on line 69.
+ 1 APPPATH\Views\layouts\master\v_mahasiswa.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(31): view('layouts/master/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:04:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+CRITICAL - 2024-03-13 04:04:13 --> Undefined array key "nama_jurusan"
+in APPPATH\Views\layouts\master\v_mahasiswa.php on line 69.
+ 1 APPPATH\Views\layouts\master\v_mahasiswa.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jurusan"', 'C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php', 69)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ProgramWeb\\app\\Views\\layouts\\master\\v_mahasiswa.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('layouts/master/v_mahasiswa', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(31): view('layouts/master/v_mahasiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:07:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:12:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
+WARNING - 2024-03-13 04:47:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Mahasiswa::$data is deprecated in APPPATH\Controllers\Mahasiswa.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Mahasiswa->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProgramWeb\\public\\index.php')
